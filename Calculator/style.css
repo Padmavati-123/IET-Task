@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    text-align: center;
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#button{
+    padding: 15px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
+
+button:active{
+    transform: scale(1.2);
+}
