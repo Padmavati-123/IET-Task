@@ -1,4 +1,7 @@
 body{
+    background-image: url('https://www.shutterstock.com/image-photo/unrecognizable-female-hands-use-calculator-260nw-2214528427.jpg');
+    background-size: cover;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
