@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
     <div id="container">
         <h1>ARITHMETIC CALCULATOR</h1>
 
         <div id="buttons">
-            <button onclick="location.href='addition.html'">Additon</button>
-            <button onclick="location.href='subtraction.html'">Subtraction</button>
-            <button onclick="location.href='multiplication.html'">Multiplication</button>
-            <button onclick="location.href='division.html'">Division</button>
+           <div class="row">
+               <button onclick="location.href='addition.html'" class="b1">Addition</button>
+               <button onclick="location.href='subtraction.html'" class="b1">Subtraction</button>
+               <button onclick="location.href='multiplication.html'" class="b1">Multiplication</button>
+           </div>
+           <div class="row">
+               <button onclick="location.href='division.html'" class="b1">Division</button>
+               <button onclick="location.href='./modulo/modulo.html'" class="b1">Modulo</button>
+               <button onclick="location.href='./comparison/comparison.html'" class="b1">Comparison</button>
+           </div>
         </div>
+   
     </div>
-    
-    <script src="app.js"></script>
+
+   
 
 </body>
 </html>
